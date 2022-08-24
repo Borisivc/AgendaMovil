@@ -1,0 +1,7 @@
+{
+  "name": "AgendaMovil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
