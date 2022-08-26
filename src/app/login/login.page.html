@@ -5,28 +5,23 @@
         </ion-title>
     </ion-toolbar>
 </ion-header>
-<ion-content>
-    <ion-card>
-        <ion-item>
-            <ion-label>
-                <p>Nombre :</p>
-            </ion-label>
-            <ion-input type="text">
-                <p></p>
-            </ion-input>
-        </ion-item>
-        <ion-item>
-            <ion-label>
-                <p>Clave :</p>
-            </ion-label>
-            <ion-input type="password">
-                <a></a>
-            </ion-input>
-        </ion-item>
-    </ion-card>
-</ion-content>
+<ion-card-content>
+    <ion-item lines="full">
+        <ion-label position="floating">Usuario</ion-label>
+        <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password"></ion-input>
+    </ion-item>
 
+</ion-card-content>
 <ion-content>
-    <ion-button href="menu">Ingresar</ion-button>
-    <ion-button href="home">Volver</ion-button>
+    <ion-row>
+        <ion-col>
+            <ion-button href="menu">Ingresar</ion-button>
+            <ion-button href="home">Volver</ion-button>
+        </ion-col>
+    </ion-row>
+
 </ion-content>
